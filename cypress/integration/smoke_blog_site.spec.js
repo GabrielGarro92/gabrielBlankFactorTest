@@ -2,7 +2,7 @@
 
 //Importing base URLs
 const baseUrls = require('../fixtures/baseUrls.json')
-
+//Importing test information to be used on the test
 const testInfo = require('../fixtures/testInfo.json')
 
 //Commons POM import
@@ -14,7 +14,7 @@ const blogPageCommons = require('../pages/blog_page/commons/blogPageCommons.js')
 //Insights page POM import
 const insightsPage = require('../pages/insigths_page/insightsPage.js');
 
-//Describe works as 'test suite'
+//Describe statement works as 'test suite'
 describe('Blog page validation suite', function () {
 
     //Before each hook for home page navigation
@@ -24,7 +24,8 @@ describe('Blog page validation suite', function () {
 
     })
 
-    it('Blog page load - validation', function () {
+    //It statement works as 'test case'
+    it('Blog page - validation', function () {
 
         //Accepting cookies banner
         globarBanner.clickAcceptCookiesBanner()
