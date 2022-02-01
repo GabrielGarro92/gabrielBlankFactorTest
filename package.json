@@ -1,14 +1,14 @@
 {
-  "name": "testaplicativo",
+  "name": "BlankFactorTest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "openCypress": "npx cypress open"
   },
   "author": "gabriel.garro",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.4.1"
+    "cypress": "8.7.0"
   }
 }
